@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/assets/*": [
+        "./assets/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "src/components/FormInput.jsx", "src/components/MusicCard.jsx", "src/constants/colors.js", "src/context/FavoritesContext.jsx", "src/data/musicas.js", "src/app/_layout.jsx", "src/app/cadastro.jsx", "src/app/favoritos.jsx", "src/app/home.jsx", "src/app/index.jsx", "src/app/player.jsx"  ]
+}
