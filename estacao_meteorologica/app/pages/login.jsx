@@ -38,13 +38,14 @@ export default function Login({ navigation }) {
 
         <TouchableOpacity
           style={styles.botao}
-          onPress={() => navigation.navigate('Cadastro')}
+          onPress={() => navigation.navigate('Principal')}
         >
           <Text style={styles.textoBotao}>Login</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => navigation.navigate('Registro')}
+          style={styles.btnLogin}
+          onPress={()=>navigation.replace('Registro')}
         >
           <Text style={styles.link}>Cadastrar</Text>
         </TouchableOpacity>
